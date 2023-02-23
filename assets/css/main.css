@@ -62,7 +62,8 @@ section {
 
 .section-bg {
   /* background-color: #eee; */
-  background-image: url(/assets/img/bg.png);
+  background-color: #f88777;
+  /* background-image: url(/assets/img/bg.png); */
 }
 
 .section-header {
@@ -1133,9 +1134,10 @@ section {
   content: "";
   left: 0;
   bottom: 0;
-  height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
+  /* height: ; */
+
+  background: url(./img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
@@ -1434,7 +1436,8 @@ section {
 }
 
 .contact .php-email-form {
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 30px;
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
