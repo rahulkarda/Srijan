@@ -1706,3 +1706,14 @@ section {
   /* color: #fff; */
   color: black;
 }
+@media screen and (max-width: 1500px) {
+  .personalize{
+    margin-left: -4%;
+    width: 65%;
+    margin-top: 2%;
+  }
+  .cart{
+    margin-left: -4%;
+    width: 45%;
+  }
+}
