@@ -28,6 +28,11 @@ body {
   background-color: #fffef0;
 }
 
+.design{
+  color: black;
+  text-decoration: underline;
+}
+
 a {
   color: var(--color-primary);
   text-decoration: none;
