@@ -817,7 +817,7 @@
 
         </div>
 
-        <form action="#" method="post" role="form" class="php-email-form p-3 p-md-4" data-netlify="true" name="contact">
+        <!-- <form action="#" method="post" role="form" class="php-email-form p-3 p-md-4" data-netlify="true" name="contact">
           <div class="row">
             <div class="col-xl-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -833,12 +833,27 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
           </div>
           <div class="my-3">
-            <!-- <div class="loading">Loading</div> -->
-            <!-- <div class="error-message"></div> -->
-            <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
           </div>
           <div class="text-center"><button type="submit">Send Message</button></div>
+        </form> -->
+        <form name="contact" method="POST" data-netlify="true" class="php-email-form p-3 p-md-4">
+          <div class="form-group">
+            <input class="form-control" type="text" name="name" placeholder="Your Name" required/>
+          </div>
+          <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div>
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center my-3">
+            <button type="submit">Send</button>
+          </div>
         </form>
+        
         <!--End Contact Form -->
 
       </div>
