@@ -815,7 +815,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/about2.png") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/shop3.webp") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1352,7 +1352,7 @@ section {
 .gallery .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #d1d1d7;
+  /* background-color: #d1d1d7; */
   opacity: 1;
 }
 
@@ -1370,9 +1370,9 @@ section {
   }
 
   .gallery .swiper-slide-active {
-    border: 6px solid var(--color-primary);
+    /* border: 6px solid var(--color-primary); */
     padding: 4px;
-    background: #fff;
+    /* background: #fff; */
     z-index: 1;
     transform: scale(1.2);
   }
