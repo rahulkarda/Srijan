@@ -27,6 +27,9 @@ body {
   color: var(--color-default);
   background-color: #fffef0;
 }
+.qr{
+  margin-left: 15%;
+}
 
 .design{
   color: black;
