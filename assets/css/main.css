@@ -1,26 +1,17 @@
-/**
-* Template Name: Yummy - v1.3.0
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
+  --font-default: "Montserrat", sans-serif; 
+  --font-primary: "Caveat", cursive;
   --font-secondary: "Inter", sans-serif;
 }
 
 /* Colors */
 :root {
-  --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-default: #5b5b5b;
+  --color-primary: #685487;
+  --color-secondary: #e96e5e;
 }
 
 /* Smooth scroll behavior */
@@ -34,6 +25,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  background-color: #fffef0;
 }
 
 a {
@@ -79,7 +71,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: #535362;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -823,7 +815,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/shop3.webp") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1360,7 +1352,7 @@ section {
 .gallery .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #d1d1d7;
+  /* background-color: #d1d1d7; */
   opacity: 1;
 }
 
@@ -1378,9 +1370,9 @@ section {
   }
 
   .gallery .swiper-slide-active {
-    border: 6px solid var(--color-primary);
+    /* border: 6px solid var(--color-primary); */
     padding: 4px;
-    background: #fff;
+    /* background: #fff; */
     z-index: 1;
     transform: scale(1.2);
   }
@@ -1491,9 +1483,10 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 30px;
   box-shadow: none;
   font-size: 14px;
+  padding-left: 1rem;
 }
 
 .contact .php-email-form input:focus,
@@ -1502,7 +1495,7 @@ section {
 }
 
 .contact .php-email-form input {
-  height: 48px;
+  height: 40px;
 }
 
 .contact .php-email-form textarea {
@@ -1668,12 +1661,10 @@ section {
   display: inline-block;
   line-height: 1;
 }
-
 .footer .footer-links ul a:hover {
   /* color: #fff; */
   color: black;
 }
-
 .footer .social-links a {
   display: flex;
   align-items: center;
@@ -1688,7 +1679,6 @@ section {
   margin-right: 10px;
   transition: 0.3s;
 }
-
 .footer .social-links a:hover {
   /* color: #fff; */
   color: black;
