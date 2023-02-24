@@ -14,6 +14,10 @@
   --color-secondary: #e96e5e;
 }
 
+.primary-color{
+  background-color: var(--color-primary);
+}
+
 /* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
@@ -27,9 +31,9 @@ body {
   color: var(--color-default);
   background-color: #fffef0;
 }
-.qr{
+/* .qr{
   margin-left: 15%;
-}
+} */
 
 .design{
   color: black;
@@ -1718,5 +1722,8 @@ section {
   .cart{
     margin-left: -4%;
     width: 45%;
+  }
+  .auto{
+    margin: auto;
   }
 }
